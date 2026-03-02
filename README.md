@@ -52,7 +52,7 @@ Each task has **three states**:
 
 ---
 
-
+## 📂 Project Structure
 WorkSphere/
 ├── index.html
 ├── css/
@@ -101,5 +101,6 @@ Full Stack Web Developer
 🔗 Portfolio:  
 https://mostaql.com/u/nehalnabel/portfolio
 
-## 📂 Project Structure
+
+
 
