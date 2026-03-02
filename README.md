@@ -51,7 +51,7 @@ Each task has **three states**:
 - SweetAlert2
 
 ---
-## 📂 Project Structure
+
 
 WorkSphere/
 ├── index.html
@@ -102,3 +102,4 @@ Full Stack Web Developer
 https://mostaql.com/u/nehalnabel/portfolio
 
 ## 📂 Project Structure
+
