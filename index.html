@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <link rel="stylesheet" href="./css/style.css" />
+  <body>
+    <h1 class="title">WorkSphere Task Management</h1>
+    <div class="parent">
+      <div class="card" id="mainCard">
+        <nav class="mainNav">
+          <h3>📝Tasks Board</h3>
+          <div class="number numbermain">0</div>
+        </nav>
+        <input type="text" class="taskName" placeholder="Add a task..." />
+        <input type="button" value="Add" class="addTaskBtn" />
+        <div class="maingreenBox" id="greenCard">
+          <div class="taskCard" style="display: none" draggable="true">
+            <span></span>
+            <input type="button" value="X" class="deleteTaskBtn" />
+          </div>
+          <p class="noTasks">No tasks yet. Add tasks here!</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card userCard" style="display: none">
+          <nav class="userCardNav">
+            <div class="number numberUser">0</div>
+
+            <img src="assets/userImg.png" alt="username" class="avatar" />
+
+            <label class="changeImge"
+              >📷
+              <input
+                type="file"
+                accept="image/*"
+                hidden
+                class="avatarInputImg"
+              />
+            </label>
+            <h3 class="username">👤Name</h3>
+          </nav>
+
+          <div class="greenBox">
+            <p class="noUserTasks">No tasks assigned!</p>
+
+            <div class="userTaskCard" style="display: none">
+              <span class="usertaskName">Login</span>
+              <input type="button" value="X" class="deleteTaskBtn" />
+              <select class="select">
+                <option value="notStarted">Not Started</option>
+                <option value="inProgress">In Progress</option>
+                <option value="finished">Finished</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
